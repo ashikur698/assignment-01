@@ -9,6 +9,9 @@
     font-weight: 600;
     font-size: 20px;
 }
+.text-center{
+    text-align: center;
+}
 
 /* Header Style */
 .header{
@@ -91,4 +94,76 @@ nav ul li{
     flex-direction: column;
     align-items: center;
     padding: 26px 221px 45px 221px;
+}
+
+.section-full{
+    margin: 0px 47px 48px 47px;
+}
+
+
+/* Reason Section Style */
+
+.reason-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+main section{
+    margin: 74px;
+}
+.reason{
+    margin: 74px 152px 90px 148px;
+    padding: 80px 97px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    max-width: auto;
+    max-height: auto;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+.reason-title{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.reason-1-div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 98px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    margin: 48px 48px;
+}
+.reason-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 477px;
+    max-height: 219px;
+}
+
+.reason-2{
+    padding: 48px;
+    border: #0D1321;
+    border-radius: 5px;
+}
+.section-title{
+    font-size: 32px;
+    font-weight: bolder;
+}
+.section-description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.detailed-reason{
+    padding: 12px 20px;
+    max-width: 171px;
+    max-height: 47px;
+}
+
+.g-3{
+    width: 274px;
+    height: 240px;
 }
