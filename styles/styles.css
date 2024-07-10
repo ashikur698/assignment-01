@@ -3,6 +3,10 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+main section{
+    margin-top: 130;
+}
 /* Shared Style */
 .normal-button{
     color: #0D1321;
@@ -54,6 +58,7 @@ nav ul li{
     background-color: #0D1321;
     padding: 21px 24px;
     border-radius: 8px;
+    text-decoration: none;
     font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   margin: 32px 377px 0px 377px;
@@ -165,11 +170,227 @@ main section{
 
 .detailed-reason{
     padding: 12px 20px;
-    max-width: 171px;
-    max-height: 47px;
+    max-width: 115px;
+    max-height: 45px;
+    /* font-size: 20px; */
 }
+
 
 .g-3{
     width: 274px;
     height: 240px;
+}
+.main-reason{
+    color: rgba(13, 19, 33, 1);
+    font-size: 16px;
+}
+
+
+
+
+/* Third Section Style */
+
+.third-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* width: 1144px;
+    height: 775px; */
+    max-width: auto;
+    max-height: auto;
+    margin-right: 152px;
+    margin-left: 148px;
+    padding-right: 152px;
+    padding-left: 148px;
+}
+
+.section-3{
+    text-align: center;
+    max-width: 852px;
+    max-height: 113px;
+}
+.video{
+    /* background-color: ;
+    stroke: rgba(13, 19, 33, 0.2);
+    border: 10px;
+    border-radius: 20px;
+    width: 1140px;
+    height: 614px; */
+    margin: 74px 152px 90px 148px;
+    padding: 32px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    max-width: auto;
+    max-height: auto;
+    border-radius: 16px;
+    stroke: rgba(13, 19, 33, 0.2);
+    stroke-opacity: 20%;
+}
+
+
+
+
+
+
+/* Third Section Styles */
+
+
+.target-title{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.target-description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.targets-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.targets{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 16px;
+    margin-right: 152px;
+    margin-left: 148px;
+    /* max-width: 1140px;
+    max-height: 460px; */
+}
+
+.target-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+
+.target-1{
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 364px;
+    max-height: 299px;
+}
+
+.target-2{
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 364px;
+    max-height: 299px;
+}
+
+.target-3{
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 364px;
+    max-height: 299px;
+}
+
+
+.target-learn{
+    text-decoration: underline;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+/* Support Section */
+    .support{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+        padding: 48px 64px;
+        background-image: url('../assets/handshake.jpg');
+        background-position: center;
+        width: 1140px;
+        height: 313px;
+        border-radius: 16px;
+        /* margin: 49px 150px 80px 150px; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .support-title{
+        font-size: 32px;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+    .support-description{
+        font-size: 16px;
+        font-weight: normal;
+        color: #FFFFFF;
+    }
+    .support-message{
+        width: 684px;
+        height: 57px;
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+    .support-text{
+        width: 548px;
+        max-height: 57px;
+        font-size: 16px;
+        font-weight: 600px;
+        padding: 19px 215px 19px 20px;
+        border-radius: 8px;
+        border: none;
+        color: rgba(13, 19, 33, 0.4);
+        background-color: #FFFFFF;
+    }
+    .submit-support{
+        width: 120px;
+        height: 57px;
+        font-size: 20px;
+        font-weight: 600px;
+        padding: 17px 20px;
+        border-radius: 8px;
+        border: none;
+        color: #0D1321;
+        background-color: #FFFFFF;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Style */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px;
+}
+.footer-img{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
 }
